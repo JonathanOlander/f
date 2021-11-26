@@ -1,52 +1,532 @@
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  header {
-    background-color: #DA1E37;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    line-height: 50px;
-    margin: 0;
-    font-size: 25px;
-  }
-  
-  label {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: solid black;
-    height: 40px;
-    align-items: center;
-    background-color: #DA1E37;
-    color: white;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  .PT {
-      background-color: cornsilk;
-      border-radius: 25%;
-      border:solid black;
-      width: 400px;
-      height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  img {
-      width: 150px;
-      height: 150px;
-      border-radius: 100%;
-      border:solid black;
-  }
+body {
+  background-color: #36454F;
+}
+.Allt {
+  width: 80%;
+  margin: auto;
+  background-color: #7393B3;
+}
+a {
+  color: white;
+}
+header {
+  background-color: #da1e37;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  line-height: 75px;
+  margin: 0;
+  font-size: 25px;
+  font-family: serif;
+  border-style: solid solid none solid;
+  border-color: black;
+}
 
-  .Teams {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      margin: 50px;
-      height: 200px;
-  }
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid black;
+  height: 55px;
+  width: 100%;
+  align-items: center;
+  background-color: #da1e37;
+  color: white;
+  font-size: 17.5px;
+  font-family: serif;
+}
+
+.Main {
+  width: 95%;
+  margin: auto;
+  padding: 15px;
+}
+
+.Main p {
+  text-align: center;
+  padding: 12.5px;
+  width: 50%;
+  border-radius: 5px;
+  border-style: solid solid none solid;
+  border-color: black;
+  margin: auto;
+  background-color: #da1e37;
+  color: white;
+}
+
+.Main img {
+  width: 100%;
+  border: solid black;
+  border-radius: 5px;
+}
+
+img {
+  width: 20%;
+}
+.RedbullAllt {
+  padding: 15px;
+}
+.Redbull {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Max {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Max p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Sergio {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Sergio p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.AlfaAllt {
+  padding: 15px;
+}
+
+.Alfa {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Tsunoda {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Tsunoda p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Pierre {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Pierre p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.ferrariAllt {
+  padding: 15px;
+}
+.ferrari {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #ff2800;
+  color: black;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Carlos {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Carlos p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Leclerc {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Leclerc p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.RomeoAllt {
+  padding: 15px;
+}
+.Romeo {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #800020;
+  color: black;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Kimi {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Kimi p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Antonio {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Antonio p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.HaasAllt {
+  padding: 15px;
+}
+.Haas {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Mick {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Mick p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Nikita {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color:#C2E2EC;
+}
+.Nikita p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.MercAllt {
+  padding: 15px;
+}
+.Merc {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #899499;
+  color: white;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Lewis {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Lewis p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Bottas {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Bottas p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.MclarenAllt {
+  padding: 15px;
+}
+.Mclaren {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Norris {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Norris p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Ricciardo {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Ricciardo p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.WilliamsAllt {
+  padding: 15px;
+}
+.Williams {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Russel {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Russel p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Latifi {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Latifi p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.AstonAllt {
+  padding: 15px;
+}
+.Aston {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #00373e;
+  color: white;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Lance {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Lance p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Vettel {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Vettel p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}
+
+.AlpineAllt {
+  padding: 15px;
+}
+.Alpine {
+  text-align: center;
+  padding: 15px;
+  border: solid;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: white;
+  border: solid black;
+  width: 250px;
+  margin: auto;
+}
+
+.Ocon {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C5E7F2;
+}
+.Ocon p {
+  width: 40%;
+  background-color: white;
+  padding: 15px;
+}
+.Alonso {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 12.5px;
+  background-color: #C2E2EC;
+}
+.Alonso p {
+  width: 40%;
+  background-color: #edf2fb;
+  padding: 15px;
+}

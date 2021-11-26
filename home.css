@@ -36,8 +36,7 @@ label {
 }
 
 img{
-  width: 350px;
-  height: 250px;
+  width: 30%;
   border:solid black;
 }
 
@@ -46,8 +45,8 @@ img{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 50px;
   background-color: #EDF2FB;
+  padding: 50px;
 }
 
 .text{
@@ -70,9 +69,10 @@ img{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: white;
+  padding: 50px; 
 }
+
 
 
