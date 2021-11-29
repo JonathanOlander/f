@@ -15,7 +15,7 @@ header {
   text-align: center;
   line-height: 75px;
   margin: 0;
-  font-size: 25px;
+  font-size: 35px;
   font-family: serif;
   border-style: solid solid none solid;
   border-color: black;
@@ -41,7 +41,7 @@ label {
   padding: 15px;
 }
 
-.Main p {
+h3 {
   text-align: center;
   padding: 12.5px;
   width: 50%;
@@ -51,6 +51,7 @@ label {
   margin: auto;
   background-color: #da1e37;
   color: white;
+  font-family: serif;
 }
 
 .Main img {
@@ -77,7 +78,9 @@ img {
   padding: 15px;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 35%;
+  margin: 0px;
 }
 
 .ljusblott img {
@@ -98,7 +101,9 @@ img {
   padding: 15px;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 35%;
+  margin: 0px;
 }
 
 .vitt img {
